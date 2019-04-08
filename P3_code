@@ -1,1 +1,38 @@
-hm
+//Sykos new psuedocode base.
+//4.4.19
+
+//moving the robot forward
+motor(port#, 100);
+motor(port#, 100);
+msleep();
+
+//turning bunbun away from the WRU
+motor(port#, -100);
+motor(port#, 100);
+msleep();
+
+//turn towards the buildings
+motor(port#, 100);
+motor(port#, -100);
+msleep();
+
+//foreward a bit
+motor(port#, 100);
+motor(port#, 100);
+msleep();
+
+//turn towards the WRU
+motor(port#, 100);
+motor(port#, -100);
+msleep();
+
+//forward collecting poms
+motor(port#, 100);
+motor(port#, 100);
+msleep();
+
+//however we get the poms into the WRU goes below this
+
+
+
+//turn back down 
